@@ -1,0 +1,25 @@
+.package {
+  width: 250px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 25px;
+
+  transition: all 0.3s ease;
+}
+
+.package:hover {
+  background-color: black !important;
+  cursor: pointer;
+}
+
+.package:hover li {
+  color: #ddd !important;
+}
+
+.package:hover p {
+  color: #ddd !important;
+}
+
+.package:hover h3 {
+  color: #ddd !important;
+}
